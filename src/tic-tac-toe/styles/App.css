@@ -1,0 +1,35 @@
+/* Estilo para centrar el contenedor principal */
+.AppContainer {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilo para el turno del jugador */
+.PlayerTurn {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* Estilo para el contenedor del tablero */
+.BoardContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin: 0 auto;
+}
+
+/* Estilo para los botones de los cuadrados */
+.SquareButton {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.SquareButton:focus {
+  outline: none;
+}
